@@ -5,4 +5,4 @@ arg0=$1
 arg1=$2
 
 # Pass arguments to TypeScript file
-tsx index.ts "$arg0" "$arg1"
+npx tsx index.ts "$arg0" "$arg1"
