@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Read arguments
+arg0=$1
+arg1=$2
+
+# Pass arguments to TypeScript file
+tsx index.ts "$arg0" "$arg1"
